@@ -1,0 +1,21 @@
+Post_id,Author_id,text,Likes,Comments,Share,Timestamp
+0,1,India won the cricket world cup!,10,2,1,2015
+1,3,AI is transforming the future of technology,5,1,0,2018
+2,5,Yoga helps improve mental and physical health,20,4,2,2019
+3,7,Global warming is increasing sea levels,15,3,1,2020
+4,9,College exams are stressing me out,8,1,0,2016
+5,11,The new superhero movie broke all records,25,5,3,2022
+6,13,Machine learning models are now writing code,12,2,1,2017
+7,15,Our football team won the final match!,18,3,2,2021
+8,17,Regular exercise boosts your fitness levels,30,7,4,2023
+9,19,Climate change protests happening globally,14,2,1,2014
+10,2,University learning should focus on skills,22,4,2,2020
+11,4,This celebrity show was lit!,6,1,0,2018
+12,6,Cricket tournaments are fun to watch live,28,6,3,2023
+13,8,Recycling reduces environmental pollution,16,3,2,2017
+14,10,AI can now create its own music,11,2,1,2019
+15,12,Exam prep is in full swing,19,4,2,2021
+16,14,Fitness and yoga go hand in hand,9,1,0,2015
+17,16,The music awards were incredible last night,26,5,3,2022
+18,18,Robotics is the future of industries,13,2,1,2016
+19,0,Football fans gather to celebrate win,7,1,0,2014
