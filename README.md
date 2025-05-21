@@ -1,21 +1,63 @@
-Problem Statement:  You have to design an algorithm to optimize the feed of a social networking platform with the  goal to display the most relevant posts to a user based on their interactions and preferences. 
-Specifications:
-1.	Create a network of users (students of your section (around 20 nodes)) where each student posts his doubts/reading material in different subjects (you can take 6 to 10 subjects) and expects someone else from the network will answer his/her question.  
-2.	Each user can like , comment, share the solution or problem. These interactions should influence the relevance of posts 
-3.	Each post has attributes such as the number of likes, comments, shares, and the time it was posted.
-4.	Users have preferences based on the types of posts they interact with the most (e.g. posts with images, posts about specific topics).
-5.	Feed Algorithm: The algorithm should prioritize posts based on: 
-o	Posts that match the user's content preferences should be prioritized.
-o	Newer posts should have higher priority.
-o	Posts with more likes, comments, and shares should be prioritized.
-o	Posts from users that the current user interacts with frequently should be prioritized.
-Example:
-•	User A likes posts about course 101 and frequently interacts with User B.
-•	User B posts a new article related to course 101.
-•	User C, who User A follows but interacts with less frequently, posts a question from another course.
-•	The algorithm should prioritize User B's post over User C's post in User A's feed.
-Solution Approach:
-•	Data Collection: Gather data on user interactions, post attributes, and user preferences.
-•	Scoring Function: Develop a scoring function that assigns a relevance score to each post based on the specified criteria.
-•	Sorting: Sort the posts in the user's feed based on their relevance scores.
-•	Personalization: Continuously update the scoring function based on the user's changing preferences and interactions.
+# Social Networking Feed Optimization
+
+## Problem Statement
+Design an algorithm to optimize the feed of a social networking platform with the goal to display the most relevant posts to a user based on their interactions and preferences.
+
+## Specifications
+
+1. **User Network**  
+   Create a network of users (e.g., students from your section, around 20 nodes). Each user posts doubts or reading materials across different subjects (6 to 10 subjects). Users expect responses from others in the network.
+
+2. **User Interactions**  
+   Each user can **like**, **comment**, and **share** posts (both problems and solutions). These interactions influence the relevance of the posts.
+
+3. **Post Attributes**  
+   Each post includes:
+   - Number of likes
+   - Number of comments
+   - Number of shares
+   - Time posted
+
+4. **User Preferences**  
+   Users have preferences based on the type of posts they interact with most (e.g., posts with images, posts about specific topics).
+
+5. **Feed Algorithm Prioritization**  
+   The algorithm prioritizes posts based on:  
+   - Matching the user's content preferences  
+   - Recency of the post (newer posts prioritized)  
+   - Popularity of the post (likes, comments, shares)  
+   - Frequency of interaction with the post's author  
+
+## Example
+
+- User A likes posts about Course 101 and frequently interacts with User B.  
+- User B posts a new article related to Course 101.  
+- User C, who User A follows but interacts less with, posts a question from another course.  
+
+The algorithm should prioritize User B's post over User C's post in User A's feed.
+
+## Solution Approach
+
+- **Data Collection:**  
+  Collect data on user interactions, post attributes, and user preferences.
+
+- **Scoring Function:**  
+  Develop a scoring function that assigns a relevance score to each post based on the criteria above.
+
+- **Sorting:**  
+  Sort posts in the user's feed according to their relevance scores.
+
+- **Personalization:**  
+  Continuously update the scoring function based on the user's evolving preferences and interactions.
+
+---
+
+## Technologies & Tools
+
+- Programming language: (e.g., Python, C++, Java)
+- Data structures: Graphs for user network
+- Algorithms: Scoring and sorting algorithms for feed optimization
+- Optional: Database to store posts and interactions
+
+---
+
